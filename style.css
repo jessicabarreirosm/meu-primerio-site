@@ -1,0 +1,50 @@
+/* configurando o corpo */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+.container{
+    width: 80   %;
+    margin: auto;
+    display: flex;
+}
+/* borda inferior */
+.header{
+    border-bottom: 3px solid #32b9cd;
+}
+/* um caminho para o container */
+.header .container{
+    justify-content: space-between;
+}
+/* tirar qualquer decoraçao do texto */
+.header a{
+text-decoration: none;
+color: #e3b062;
+}
+
+.agora{
+    /* define o italico */
+    font-weight: 800;
+}
+
+.navbar{
+    width: 300px;
+    /* df e ja vai o display */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    /* list-style: none tira os topicos(a bolinha)da minha lista */
+    color: #e3b062;
+}
+
+.titulo{
+    color: #32b9cd;
+    /*fit-content: se ajusta ao tamanho do texto */
+    width: fit-content;
+    font-weight: 500;
+}
+
